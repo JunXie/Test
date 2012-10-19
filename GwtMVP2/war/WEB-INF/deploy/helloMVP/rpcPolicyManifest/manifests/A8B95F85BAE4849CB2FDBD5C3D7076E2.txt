@@ -1,0 +1,2 @@
+serviceClass: com.hellomvp.client.DBConnection
+path: B3557B0302A006F376B7E8C4E56357C2.gwt.rpc
