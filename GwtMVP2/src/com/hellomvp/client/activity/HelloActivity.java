@@ -95,13 +95,19 @@ public class HelloActivity extends AbstractActivity implements
 
           @Override
           public void onFailure(Throwable caught) {
-            Window.alert("Wrong user name and or password");
+            Window.alert("RPC call fails: " + caught.toString());
           }
 
           @Override
           public void onSuccess(Boolean result) {
-            // TODO Auto-generated method stub
-            Window.alert("Login success!");
+            if (result)
+            {
+              Window.alert("Login success!");
+            }
+            else
+            {
+              Window.alert("Login failed!");
+            }
           }
         });
   }

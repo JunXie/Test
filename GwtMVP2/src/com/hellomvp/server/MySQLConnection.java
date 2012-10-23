@@ -14,7 +14,7 @@ public class MySQLConnection extends RemoteServiceServlet implements DBConnectio
   private Connection conn = null;
   private String url = "jdbc:mysql://127.0.0.1:3306/bookingsystem";
   private String user = "root";
-  private String pass = "yourPassword"; //TODO: change to your password
+  private String pass = "1111"; //TODO: change to your password
   
   public MySQLConnection() 
   {
